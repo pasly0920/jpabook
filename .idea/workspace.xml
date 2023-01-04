@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc96dc2e-0ab3-4b62-a56d-dee1d188fed1" name="Changes" comment="fix: 오타 수정">
+    <list default="true" id="fc96dc2e-0ab3-4b62-a56d-dee1d188fed1" name="Changes" comment="feat: 기본 공통 속성 정의 및 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
     </list>
@@ -119,7 +117,8 @@
       <workItem from="1672567665555" duration="1387000" />
       <workItem from="1672708625998" duration="818000" />
       <workItem from="1672752339672" duration="855000" />
-      <workItem from="1672796803407" duration="4979000" />
+      <workItem from="1672796803407" duration="5771000" />
+      <workItem from="1672823950268" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial setup">
       <created>1672474729289</created>
@@ -191,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672807923519</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: 상속 관계 매핑">
+      <created>1672816574293</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672816574293</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: 기본 공통 속성 정의 및 추가">
+      <created>1672816594232</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672816594232</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +231,9 @@
     <MESSAGE value="feat: ManyToMany 관계 추가" />
     <MESSAGE value="feat: OneToOne 관계 추가" />
     <MESSAGE value="fix: 오타 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 오타 수정" />
+    <MESSAGE value="feat: 상속 관계 매핑" />
+    <MESSAGE value="feat: 기본 공통 속성 정의 및 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 기본 공통 속성 정의 및 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
