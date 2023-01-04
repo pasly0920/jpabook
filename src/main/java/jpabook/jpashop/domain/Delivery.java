@@ -1,8 +1,10 @@
 package jpabook.jpashop.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,6 +15,7 @@ public class Delivery {
 
     @Id
     @GeneratedValue
+    @Column(name = "DELIVERY_ID")
     private Long id;
 
     private String city;
@@ -20,4 +23,7 @@ public class Delivery {
     private String zipcode;
 
     private DeliveryStatus status;
+
+    @OneToOne(mappedBy = "delivery")
+    private Order order;
 }
